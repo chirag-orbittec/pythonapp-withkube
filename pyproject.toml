@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "sampleapp"
+version = "0.1.0"
+description = ""
+authors = ["Chirag Patel <chirag.orbittec@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+kubernetes = "^20.10.0"
+flask = "^3.0.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
